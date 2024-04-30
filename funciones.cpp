@@ -65,8 +65,6 @@ void quien_empieza(int resultado_lanzamiento[3], std::string jugador[2], std::st
 
             texto_definicion_jugadores(nombre,  i);
             rlutil::anykey();
-            rlutil::locate(10,11);
-            cout  << "RESULTADO DE " << nombre[i] << ":                              "<< endl;
             lanzamiento_dados(2, 6, resultado_lanzamiento);
             for(int j=0; j<2; j++){
                 std::setlocale(LC_ALL, "C");
@@ -193,21 +191,21 @@ void tabla_puntajes(std::string jugador[2], int acu_trufas[2], int max_trufas[2]
     rlutil::locate(2,2);
     cout << "GRAN CERDO "<< endl;
     rlutil::locate(2,4);
-    cout << "********************************************************************************" << endl;
+    cout << "************************************************************" << endl;
     rlutil::locate(2,5);
     cout << "|";
     rlutil::locate(7,5);
     cout << "HITO";
     rlutil::locate(30,5);
     cout << jugador[0];
-    rlutil::locate(57,5);
+    rlutil::locate(45,5);
     cout << jugador[1];
-    rlutil::locate(80,5);
+    rlutil::locate(60,5);
     cout << "|";
 
     rlutil::locate(2,6);
     cout << "|";
-    rlutil::locate(80,6);
+    rlutil::locate(60,6);
     cout << "|";
 
     rlutil::locate(2,7);
@@ -216,9 +214,9 @@ void tabla_puntajes(std::string jugador[2], int acu_trufas[2], int max_trufas[2]
     cout << "Más trufas en total";
     rlutil::locate(30,7);
     cout << max_trufas[0] << " PDV";
-    rlutil::locate(57,7);
+    rlutil::locate(45,7);
     cout << max_trufas[1] << " PDV";
-    rlutil::locate(80,7);
+    rlutil::locate(60,7);
     cout << "|";
 
     rlutil::locate(2,8);
@@ -227,9 +225,9 @@ void tabla_puntajes(std::string jugador[2], int acu_trufas[2], int max_trufas[2]
     cout << "Cada 50 trufas";
     rlutil::locate(30,8);
     cout << cada_50_trufas[0] << " PDV";
-    rlutil::locate(57,8);
+    rlutil::locate(45,8);
     cout << cada_50_trufas[1] << " PDV";
-    rlutil::locate(80,8);
+    rlutil::locate(60,8);
     cout << "|";
 
     rlutil::locate(2,9);
@@ -238,9 +236,9 @@ void tabla_puntajes(std::string jugador[2], int acu_trufas[2], int max_trufas[2]
     cout << "Oinks";
     rlutil::locate(30,9);
     cout << cada_oink[0] << " PDV";
-    rlutil::locate(57,9);
+    rlutil::locate(45,9);
     cout << cada_oink[1] << " PDV";
-    rlutil::locate(80,9);
+    rlutil::locate(60,9);
     cout << "|";
 
     rlutil::locate(2,10);
@@ -249,12 +247,12 @@ void tabla_puntajes(std::string jugador[2], int acu_trufas[2], int max_trufas[2]
     cout << "Cerdo más codicioso";
     rlutil::locate(30,10);
     cout << mas_codicioso[0] << " PDV";
-    rlutil::locate(57,10);
+    rlutil::locate(45,10);
     cout << mas_codicioso[1] << " PDV";
-    rlutil::locate(80,10);
+    rlutil::locate(60,10);
     cout << "|";
     rlutil::locate(2,11);
-    cout << "********************************************************************************" << endl;
+    cout << "************************************************************" << endl;
 
 
     rlutil::locate(2,12);
@@ -263,15 +261,15 @@ void tabla_puntajes(std::string jugador[2], int acu_trufas[2], int max_trufas[2]
     cout << "Humcerdo Primo";
     rlutil::locate(30,12);
     cout << cerdo_primo[0] << " PDV";
-    rlutil::locate(57,12);
+    rlutil::locate(45,12);
     cout << cerdo_primo[1] << " PDV";
-    rlutil::locate(80,12);
+    rlutil::locate(60,12);
     cout << "|";
 
 
 
     rlutil::locate(2,13);
-    cout << "********************************************************************************" << endl;
+    cout << "************************************************************" << endl;
 
     rlutil::locate(2,14);
     cout << "|";
@@ -279,35 +277,35 @@ void tabla_puntajes(std::string jugador[2], int acu_trufas[2], int max_trufas[2]
     cout << "TOTAL";
     rlutil::locate(30,14);
     cout << total[0] << " PDV";
-    rlutil::locate(57,14);
+    rlutil::locate(45,14);
     cout << total[1] << " PDV";
-    rlutil::locate(80,14);
+    rlutil::locate(60,14);
     cout << "|";
 
     /////////////////
-    rlutil::locate(85,4);
+    rlutil::locate(65,4);
     cout << "------------------------";
-    rlutil::locate(85,5);
+    rlutil::locate(65,5);
     cout << jugador[0];
-    rlutil::locate(85,6);
+    rlutil::locate(65,6);
     cout << "------------------------";
-    rlutil::locate(85,7);
+    rlutil::locate(65,7);
     cout << "Trufas: " << acu_trufas[0];
-    rlutil::locate(85,8);
+    rlutil::locate(65,8);
     cout << "Lanzamientos (cant. máx): " << cant_max_lanzamientos[0];
-    rlutil::locate(85,9);
+    rlutil::locate(65,9);
     cout << "Oinks: " << cont_oink[0];
-    rlutil::locate(85,10);
+    rlutil::locate(65,10);
     cout << "------------------------";
-    rlutil::locate(85,11);
+    rlutil::locate(65,11);
     cout << jugador[1];
-    rlutil::locate(85,12);
+    rlutil::locate(65,12);
     cout << "------------------------";
-    rlutil::locate(85,13);
+    rlutil::locate(65,13);
     cout << "Trufas: " << acu_trufas[1];
-    rlutil::locate(85,14);
+    rlutil::locate(65,14);
     cout << "Lanzamientos (cant. máx): " << cant_max_lanzamientos[1];
-    rlutil::locate(85,15);
+    rlutil::locate(65,15);
     cout << "Oinks: " << cont_oink[1];
 
 

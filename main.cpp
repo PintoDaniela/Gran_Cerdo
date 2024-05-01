@@ -20,7 +20,8 @@ int main(){
     int acu_trufas[2]={},resultado_lanzamiento[3]={},cont_oink[2]={}, mas_codicioso[2]={}, max_trufas[2]={}, cada_50_trufas[2]={}, cada_oink[2]={},total[2]={}, cant_max_lanzamientos[2]={}, cerdo_primo[2]={};
     int mat_lanzamientos[2][5]={};
     string nombre[2], jugador[2], ganador, jugador_estadistica;
-    bool mostrar_menu=1, cambio_turno=0, pierde_turno, tres_dados=0, humprimo=0;
+    bool mostrar_menu=1;
+    //bool cambio_turno=0, pierde_turno, tres_dados=0, humprimo=0, hundido_en_el_barro=0;
     char cede_turno, menu, salir='N';
 
     system("color 5E");
@@ -44,8 +45,9 @@ int main(){
             quien_empieza(resultado_lanzamiento, jugador, nombre);
 
             //////////////////// Empieza el juego //////////////////
-            tres_dados=0;
-            humprimo=0;
+            bool tres_dados=0;
+            bool humprimo=0;
+            bool hundido_en_el_barro=0;
             for(int y=0; y<2; y++){
                 for(int x=0; x<5; x++){
                    mat_lanzamientos[y][x]=0;
@@ -63,8 +65,8 @@ int main(){
                 for(int y=0; y<2; y++){//jugadores
                     cont_lanzamiento=0;
                     trufas_ronda=0;
-                    cambio_turno=0;
-                    pierde_turno=0;
+                    bool cambio_turno=0;
+                    bool pierde_turno=0;
 
                     while(cambio_turno==0){//turno
                         pierde_turno=0;
@@ -80,7 +82,7 @@ int main(){
                         rlutil::locate(10,13);
                         cout << "                                              " << endl << endl;
 
-                        if(acu_trufas[0]>50 && acu_trufas[1]>50){
+                        if((acu_trufas[0]>50 && acu_trufas[1]>50)||hundido_en_el_barro){
                             tres_dados=1;
                         }
 
@@ -109,6 +111,7 @@ int main(){
                             // Se hunde en el barro:
                             }else if(cant_ases==2){
                                 se_hunde(acu_trufas, pierde_turno, tres_dados, y);
+                                hundido_en_el_barro=1;
                             }
 
                         }else{ /////////////Jugadas con 3 dados//////////////

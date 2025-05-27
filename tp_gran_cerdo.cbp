@@ -37,6 +37,8 @@
 		<Unit filename="jugadas.cpp" />
 		<Unit filename="jugadas.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="opcion_jugar.cpp" />
+		<Unit filename="opcion_jugar.h" />
 		<Unit filename="rlutil.h" />
 		<Unit filename="visuales.cpp" />
 		<Unit filename="visuales.h" />

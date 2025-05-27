@@ -1,0 +1,157 @@
+# depslib dependency file v1.0
+1748385793 source:c:\users\danif\downloads\gran_cerdo-main (1)\gran_cerdo-main\funciones.cpp
+	<iostream>
+	<cstdlib>
+	<locale.h>
+	<string>
+	"rlutil.h"
+	<stdlib.h>
+	<ctime>
+
+1747779541 c:\users\danif\downloads\gran_cerdo-main (1)\gran_cerdo-main\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1747779541 source:c:\users\danif\downloads\gran_cerdo-main (1)\gran_cerdo-main\jugadas.cpp
+	<iostream>
+	<cstdlib>
+	<locale.h>
+	<string>
+	"rlutil.h"
+	<stdlib.h>
+	<ctime>
+
+1747779541 source:c:\users\danif\downloads\gran_cerdo-main (1)\gran_cerdo-main\visuales.cpp
+	<iostream>
+	<cstdlib>
+	<locale.h>
+	"rlutil.h"
+	<ctime>
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+
+1748385939 source:c:\users\danif\downloads\gran_cerdo-main (1)\gran_cerdo-main\main.cpp
+	<iostream>
+	<locale.h>
+	<string>
+	<ctime>
+	<stdlib.h>
+	"rlutil.h"
+	<windows.h>
+	"visuales.h"
+	"funciones.h"
+	"jugadas.h"
+	"opcion_jugar.h"
+
+1747779541 c:\users\danif\downloads\gran_cerdo-main (1)\gran_cerdo-main\visuales.h
+
+1747779541 c:\users\danif\downloads\gran_cerdo-main (1)\gran_cerdo-main\funciones.h
+
+1747779541 c:\users\danif\downloads\gran_cerdo-main (1)\gran_cerdo-main\jugadas.h
+
+1748385995 c:\users\danif\downloads\gran_cerdo-main (1)\gran_cerdo-main\opcion_jugar.h
+	"visuales.h"
+	"funciones.h"
+	"jugadas.h"
+
+1748386355 source:c:\users\danif\downloads\gran_cerdo-main (1)\gran_cerdo-main\opcion_jugar.cpp
+	<iostream>
+	<cstdlib>
+	<locale.h>
+	<string>
+	"rlutil.h"
+	<stdlib.h>
+	<ctime>
+	"visuales.h"
+	"funciones.h"
+	"opcion_jugar.h"
+
+1748385793 source:c:\users\danif\desktop\repos\gran_cerdo_repo\gran_cerdo\funciones.cpp
+	<iostream>
+	<cstdlib>
+	<locale.h>
+	<string>
+	"rlutil.h"
+	<stdlib.h>
+	<ctime>
+
+1747779541 c:\users\danif\desktop\repos\gran_cerdo_repo\gran_cerdo\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1747779541 source:c:\users\danif\desktop\repos\gran_cerdo_repo\gran_cerdo\jugadas.cpp
+	<iostream>
+	<cstdlib>
+	<locale.h>
+	<string>
+	"rlutil.h"
+	<stdlib.h>
+	<ctime>
+
+1748386589 source:c:\users\danif\desktop\repos\gran_cerdo_repo\gran_cerdo\main.cpp
+	<iostream>
+	<locale.h>
+	<string>
+	<ctime>
+	<stdlib.h>
+	"rlutil.h"
+	<windows.h>
+	"visuales.h"
+	"funciones.h"
+	"jugadas.h"
+	"opcion_jugar.h"
+
+1747779541 c:\users\danif\desktop\repos\gran_cerdo_repo\gran_cerdo\visuales.h
+
+1747779541 c:\users\danif\desktop\repos\gran_cerdo_repo\gran_cerdo\funciones.h
+
+1747779541 c:\users\danif\desktop\repos\gran_cerdo_repo\gran_cerdo\jugadas.h
+
+1748385995 c:\users\danif\desktop\repos\gran_cerdo_repo\gran_cerdo\opcion_jugar.h
+	"visuales.h"
+	"funciones.h"
+	"jugadas.h"
+
+1748386355 source:c:\users\danif\desktop\repos\gran_cerdo_repo\gran_cerdo\opcion_jugar.cpp
+	<iostream>
+	<cstdlib>
+	<locale.h>
+	<string>
+	"rlutil.h"
+	<stdlib.h>
+	<ctime>
+	"visuales.h"
+	"funciones.h"
+	"opcion_jugar.h"
+
+1747779541 source:c:\users\danif\desktop\repos\gran_cerdo_repo\gran_cerdo\visuales.cpp
+	<iostream>
+	<cstdlib>
+	<locale.h>
+	"rlutil.h"
+	<ctime>
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+

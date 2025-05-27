@@ -312,7 +312,7 @@ void quien_gana(int total[2], std::string &ganador, std::string jugador[2], int 
 
 }
 
-///Estadístic:
+///Estadística:
 void datos_estadisticas(int puntaje_ganador, int &puntaje_estadistica, std::string ganador, std::string &jugador_estadistica){
     if(puntaje_ganador>puntaje_estadistica && ganador != "empate"){
         puntaje_estadistica=puntaje_ganador;

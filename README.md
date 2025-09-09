@@ -6,7 +6,7 @@
 :game_die: El lenguaje en el cuál está desarrollado es C++, utilizando el entorno de desarrollo integrado Code::Blocks. <br/>
 
 
-## Capturas del prigrama
+## Capturas del programa
 
 Pantalla de inicio<br/>
 <img width="476" height="355" alt="Captura de pantalla 2025-09-09 184003" src="https://github.com/user-attachments/assets/5c6488ed-286c-48a0-bb33-4863989c9701" /><br/><br/>

@@ -30,13 +30,3 @@ Grilla de resultados.</br>
 <img width="907" height="443" alt="Captura de pantalla 2025-09-09 183951" src="https://github.com/user-attachments/assets/48572337-d0e3-454a-a29c-ceef95f8ca9e" /><br/><br/>
 
 
-
-
-
-
-
-
-
-Menú<br/>
-
-Menú<br/>
